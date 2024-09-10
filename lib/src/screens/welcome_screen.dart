@@ -23,8 +23,7 @@ class WelcomeScreen extends ConsumerWidget {
     return Theme(
       data: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch:
-            defaultColor is MaterialColor ? defaultColor : Colors.green,
+        primarySwatch: Colors.yellow,
       ),
       child: SafeArea(
         child: PlatformScaffold(
